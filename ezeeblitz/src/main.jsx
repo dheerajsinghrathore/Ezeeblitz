@@ -4,4 +4,10 @@ import "bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./main.css";
-createRoot(document.getElementById("root")).render(<App />);
+import { BrowserRouter } from "react-router-dom";
+
+createRoot(document.getElementById("root")).render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+);
