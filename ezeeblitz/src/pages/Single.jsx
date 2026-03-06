@@ -35,7 +35,7 @@ export default function Single() {
 					<h2 className="fs-1 fw-bold">{single.name}</h2>
 					<div className="fs-5 mb-2">{single.price}</div>
 					<p className="lead">{single.description}</p>
-					<ProductButton />
+					<ProductButton product={single} />
 				</div>
 			</div>
 			<Line />
